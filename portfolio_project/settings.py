@@ -139,15 +139,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-STATIC_URL = '/static/'
+# settings.py
 
-# ✅ REQUIRED if you keep static files inside apps
-STATICFILES_DIRS = [
-    BASE_DIR / 'main' / 'static',
-]
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
-# ✅ REQUIRED for production (Render)
-STATIC_ROOT = BASE_DIR / 'staticfiles'
-
-# ✅ REQUIRED for WhiteNoise
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"

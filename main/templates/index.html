@@ -1,0 +1,488 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anwin Baby - Python Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/index.js' %}" defer></script>
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+</head>
+
+<body>
+    <!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#technical skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!--  FINISHER HEADER -->
+<header class="finisher-header">
+    <div class="header-content">
+    <section class="hero-section align-items-center text-center py-5">
+            <div class="container">
+
+        <div class="resume-btn-wrapper mt-4">
+            <a href="{% static 'files/resum1.pdf' %}" download class="resume-btn">
+                <i class="bi bi-download"></i> Download Resume
+            </a>
+        </div>
+
+        <div class=section id="home" class="py-5">
+        <div class="profile-wrapper mx-auto mb-4 col-6 col-sm-4 col-md-3 col-lg-2">
+            <img src="{% static 'image/profile.jpg' %}"
+                class="img-fluid rounded-circle"
+                alt="Profile">
+        </div>
+
+
+        <h1 class="hero-name">ANWIN BABY</h1>
+
+        <p class="hero-subtitle">
+            B.Tech CSE | Python Full-Stack Developer With Gen AI
+        </p>
+        <br>
+        <div class="row-1 justify-content-center mt-4 g-3">
+            <div class="col-12 col-md-auto">
+                <div class="pill">
+                    <i class="bi bi-envelope-fill"></i> anwinbaby.2017@gmail.com
+                </div>
+            </div>
+            <div class="col-12 col-md-auto">
+                <div class="pill">
+                    <i class="bi bi-telephone-fill"></i> +91 94005 28532
+                </div>
+            </div>
+            <div class="col-12 col-md-auto">
+                <div class="pill">
+                    <i class="bi bi-geo-alt-fill"></i> Kerala, India
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="social-icons mt-4">
+
+            <a href="http://linkedin.com/in/anwin-baby-94b193291" target="_blank" rel="linkdin">
+                <i class="bi bi-linkedin"></i>
+            </a>     
+
+            <a href="https://www.instagram.com/an_win_baby/" target="_blank" rel=instagrame>
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://github.com/ANWINBABY" target="_blank" rel=github>
+                <i class="bi bi-github"></i>
+            </a>
+            
+        </div>
+  
+    </div>
+    </section>
+        <!-- ================= SUMMARY ================= -->
+        <section class="section-wrapper py-5">
+            <div class="container">
+                <div class="glass-card-1">
+                    <br>
+                    <h2 class="section-title"  >🎯 Professional Summary</h2>
+                    <div class="section-line"></div>
+                    <div class="divider"></div>
+                    <p class="summary-text">
+                        Motivated B.Tech Computer Science graduate and Python Full-Stack Developer with hands-on experience in Django, HTML, CSS, JavaScript, Bootstrap, and relational databases. Skilled in building responsive, user-centric web applications and RESTful APIs. Experienced in backend development, frontend integration, and version control using Git. Passionate about learning emerging technologies including Generative AI and seeking an entry-level role or internship to contribute to real-world software solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EDUCATION ================= -->
+<section class="glass-section py-5">
+    <div class="container">
+    <div class=section id="education" class="py-5">
+        <div class="glass-card animate-card">
+            <br>
+
+            <h2 class="section-heading ps-4">
+                <i class="bi bi-mortarboard-fill"></i> Education
+            </h2>
+
+            <div class="section-line ms-4"></div>
+
+            <!-- TIMELINE -->
+            <div class="timeline">
+
+                <!-- ITEM 1 -->
+                <div class="timeline-item timeline-edu-1 animate-item">
+                    <span class="edu-dot"></span>
+                    <h4>B.Tech CSE</h4>
+                    <p class="org">
+                        Mar Baselios Institute of Technology and Science <br>
+                        Kothamangalam, Ernakulam, Kerala
+                    </p>
+                    <p class="meta">2020 – 2024 | CGPA: 6.23</p>
+                </div>
+
+                <!-- ITEM 2 -->
+                <div class="timeline-item timeline-edu-2 animate-item">
+                    <span class="edu-dot"></span>
+                    <h4>Higher Secondary</h4>
+                    <p class="org">
+                        St Mary's HSS Morakkala <br>
+                        Palikkara,Ernakulam,Kerala</p>
+                    <p class="meta">2020 | Percentage: 72%</p>
+                </div>
+
+                <!-- ITEM 3 -->
+                <div class="timeline-item timeline-edu-3 animate-item">
+                    <span class="edu-dot"></span>
+                    <h4>SSLC</h4>
+                    <p class="org">
+                        Mar Athanasius High School <br>
+                        Kakkanad, Ernakulam, Kerala
+                    </p>
+                    <p class="meta">2018 | Percentage: 97%</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- ================= TECHNICAL SKILLS ================= -->
+        <section class="glass-section py-5">
+            <div class=section id="technical skills" class="py-5">
+            <div class="container">
+                <div class="glass-card">
+                    <br>
+                    <h2 class="section-heading"><i class="bi bi-laptop"></i> Technical Skills</h2>
+                    <div class="section-line"></div>
+
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6">
+                            <div class="skill-box">
+                                <h5>Programming</h5>
+                                <div class="pill-group">
+                                    <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><br><span>JS</span><span>Bootstrap</span><span>Flask</span><span>React JS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="skill-box">
+                                <h5>Database & Tools</h5>
+                                <div class="pill-group">
+                                    <span>MySQL</span><span>Git</span><span>REST API</span><span>SQlite</span><span>PostgreSQL</span><span>Postman</span><span>Vs Code</span><span>Jupyter Notebook</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-section py-5">
+            <div class=section id="experience" class="py-5">
+            <div class="container">
+
+                <div class="glass-card animate-card">
+                    <br>
+                    <h2 class="section-heading">
+                        <i class="bi bi-briefcase-fill"></i> Experience & Internships
+                    </h2>
+
+                    <div class="section-line"></div>
+
+                    <div class="timeline">
+
+                        <div class="timeline-item animate-item-1">
+                            <span class="dot"></span>
+                            <h4>Python Full-Stack Developer Intern (Ongoing)</h4>
+                            <p class="org">QIS Academy, Kochi</p>
+                            <p class="meta">August 2025 – Present (6 Months)</p>
+                            <ul>
+                                <li>Hands-on training in Python Full-Stack Development</li>
+                                <li>Django, HTML, CSS, JavaScript, Bootstrap, MySQL</li>
+                                <li>Developing real-world web applications</li>
+                                <li>REST APIs, authentication, debugging</li>
+                                <li>Industry-level coding practices & Git/GitHub</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item animate-item-2">
+                            <span class="dot"></span>
+                            <h4>T-Machine Software Solutions Pvt. Ltd.</h4>
+                            <p class="position">Associate Software Engineer</p>
+                            <p class="org">Chennai, Tamil Nadu</p>
+                            <p class="meta">Feb 2025 – Jul 2025</p>
+                            <ul>
+                                <li>
+                                    Worked on software development and enhancement projects,
+                                    contributing to internal applications using modern tools and frameworks.
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="timeline-item animate-item-3">
+                            <span class="dot"></span>
+                            <h4>Completed Advance Driver Assistant System - Level 1' offered by ReynLab-Internship(Online)</h4>
+                            <p class="meta">Duration:October 2022 – March 2023</p>
+                            <ul>
+                                <li>Completed ADAS Level 1 online internship by ReynLab</li>
+                                <li>Gained basic understanding of driver assistance systems</li>
+                                <li>Learned concepts like lane departure warning, adaptive cruise control, and collision avoidance</li>
+                                <li>Understood fundamentals of vehicle sensors and safety technologies</li>
+                            </ul>
+                        </div> 
+
+                        <div class="timeline-item animate-item-4">
+                            <span class="dot"></span>
+                            <h4> Hands-on Workshop on Machine Learning Using Python - Workshop(3 Days)</h4>
+                            <p class="meta">Duration: March 2024</p>
+                            <ul>
+                                <li>Gained practical exposure to ML algorithms and model implementation</li>
+                                <li>Learned basics of data preprocessing and evaluation</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item animate-item-5">
+                            <span class="dot"></span>
+                            <h4> Web Development From Intrainz – Internship</h4>
+                            <p class="meta">Duration: Jan 2024 – March 2024</p>
+                            <ul>
+                                <li>Built responsive web pages using HTML, CSS, and JavaScript</li>
+                                <li>Gained hands-on experience in frontend development</li>
+                                <li>Worked on real-time projects and best coding practices</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+<section class="glass-section py-5">
+    <div class=section id="project" class="py-5">
+    <div class="container">
+        <div class="glass-card animate-card">
+        <div class="projects-container">
+            <br>
+            <h2 class="projects-title">🚀 Projects</h2>
+            <div class="section-line"></div>
+
+
+            <div class="timeline">
+
+                <!-- PROJECT 1 -->
+                <div class="timeline-item project-1">
+                    <span class="dot" style="right: 75.2rem;"></span>
+
+                    <div class="project-row">
+                        <h4>EHMS: Hospital Management System</h4>
+                        <p><strong>Tech Stack:</strong> HTML, CSS, PHP, JS</p>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="timeline-item project-2">
+                    <span class="dot"></span>
+                    <div class="project-row"style="top: 10px;">
+                        <h4>Blueshark</h4>
+                        <p class="tech">
+                            <strong>Tech Stack:</strong> Python, Flask, HTML, CSS, JavaScript
+                        </p>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <div class="timeline-item project-3">
+                    <span class="dot"></span>
+                    <div class="project-row"style="top: 10px;">
+                        <h4>Blog Application</h4>
+                        <p class="tech">
+                            <strong>Tech Stack:</strong> Python, Django, SQLite, HTML, CSS, JavaScript
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= SOFT SKILLS ================= -->
+        <section class="glass-section py-5">
+            <div class="container">
+                <div class="glass-card-2">
+                    <br>
+                    <h2 class="section-heading">🌟 Soft Skills</h2>
+                    <div class="section-line"></div>
+
+                    <div class="pill-group">                        
+                    <span>Communication</span><span>Problem Solving</span><span>Teamwork</span><span>Leadership</span>
+                    </div>
+                <br>
+                </div>
+            </div>
+        <br>
+        </section>
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+
+                        <div class="glass-card-3">
+                            <h2 class="section-heading text-center mb-3">
+                                <i class="bi bi-envelope"></i> Contact Me
+                            </h2>
+                            <div class="section-line mx-auto mb-4"></div>
+
+                                <form method="post" action="{% url 'home' %}">
+                                    {% csrf_token %}
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Full Name</label>
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            class="form-control"
+                                            placeholder="Enter your name"
+                                            required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Email Address</label>
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            class="form-control"
+                                            placeholder="Enter your email"
+                                            required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Subject</label>
+                                        <input
+                                            type="text"
+                                            name="subject"
+                                            class="form-control"
+                                            placeholder="Subject">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Message</label>
+                                        <textarea
+                                            name="message"
+                                            class="form-control"
+                                            rows="4"
+                                            placeholder="Write your message..."
+                                            required></textarea>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary px-4">
+                                            <i class="bi bi-send"></i> Send Message
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <footer class="footer">
+            <p id="footer-text"></p>
+        </footer>
+
+<br>
+<script src="{% static 'js/finisher-header.es5.min.js' %}"></script>
+</header>
+
+
+
+<!-- FINISHER SCRIPT -->
+<script src="finisher-header.es5.min.js"></script>
+
+<script type="text/javascript">
+new FinisherHeader({
+  "count": 200,
+  "size": {
+    "min": 1,
+    "max": 20,
+    "pulse": 0
+  },
+  "speed": {
+    "x": {
+      "min": 0,
+      "max": 0.4
+    },
+    "y": {
+      "min": 0,
+      "max": 0.1
+    }
+  },
+ colors: {
+            background: "#0b0f1a",
+            particles: [
+                "#ffffff",
+                "#87ddfe",
+                "#acaaff",
+                "#1bffc2",
+                "#f88aff"
+            ]
+  },
+  "blending": "screen",
+  "opacity": {
+    "center": 0,
+    "edge": 0.4
+  },
+  "skew": 0,
+  "shapes": [
+    "c",
+    "s",
+    "t"
+  ]
+});
+</script>
+
+</body>
+</html>
